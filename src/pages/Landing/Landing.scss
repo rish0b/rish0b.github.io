@@ -1,0 +1,121 @@
+.landing {
+
+    height: 100%;
+    display: grid;
+    grid-template-rows: 1fr auto; 
+
+    .content {
+
+        grid-row: 1;
+
+        .title {
+            font-size: var(--font-title);
+
+            font-style: italic;
+            margin: 0;
+            padding: 0 0 1.5rem 0;
+        }
+
+        .bold_title {
+            font-weight: 700;
+        }
+
+        .subtitle {
+
+            font-size: var(--font-subtitle);
+
+            margin-bottom: 1rem;
+
+            max-width: 60vw;
+
+            @media (max-width: 768px) {
+                max-width: none;
+            }
+
+            .job-title {
+                font-weight: 700;
+
+                text-decoration: underline;
+
+                //font-style: italic;
+            }
+        }
+
+        .description {
+            font-size: var(--font-description);
+
+            margin: 1em 0;
+
+            max-width: 55vw;
+        }
+
+        .doodle-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0;
+            bottom: 4rem;
+            right: 4rem;
+            position: absolute;
+              
+            @media (max-width: 768px) {
+                display: none;
+            }
+          
+            .doodle {
+              max-width: var(--doodle-size);
+              padding-left: 3rem;
+            }
+          
+            .doodle-caption {
+              margin-top: 2rem;
+              font-size: var(--font-menu); 
+              color: var(--primary-text-color);
+              text-align: center;
+              font-style: italic;
+            }
+              
+        }
+          
+
+    }
+
+    .menu {
+        display: flex; 
+        gap: 2.5rem;
+        grid-row: 2;
+        justify-content:baseline;
+
+        .menu-item {
+            font-size: var(--font-menu);
+
+            font-weight: bold;
+            transition: color text-decoration 0.3s;
+
+            .emoji {
+                display: inline-block;
+                transition: transform 0.3s ease-in-out;
+            }
+
+        }
+    
+        .menu-item:hover {
+
+            .emoji {
+                animation: wave 1s infinite;
+            }
+
+            @keyframes wave {
+                0% { transform: rotate(0deg); }
+                25% { transform: rotate(-10deg); }
+                50% { transform: rotate(10deg); }
+                75% { transform: rotate(-10deg); }
+                100% { transform: rotate(0deg); }
+            }
+
+        }
+
+    }
+
+}
+  
