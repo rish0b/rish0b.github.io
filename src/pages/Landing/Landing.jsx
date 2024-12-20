@@ -18,7 +18,7 @@ const Landing = () => {
         
 
         <figure className="doodle-container">
-          <img className="doodle" src="/src/assets/coffee_cup.png" alt="coffee cup doodle" />
+          <img className="doodle" src="/assets/coffee_cup.png" alt="coffee cup doodle" />
           <figcaption className="doodle-caption">Code brewed to *almost* perfection.</figcaption>
         </figure>
 
