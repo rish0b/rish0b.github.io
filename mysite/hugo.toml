@@ -1,0 +1,88 @@
+baseURL = 'https://rish0b.github.io/'
+languageCode = 'en-us'
+title = 'Rishab Ravikumar'
+
+[taxonomies]
+tag = 'tags'
+
+# Google analytics code
+googleAnalytics = "G-xxxxxxxxx"
+
+[params]
+# Meta description
+description = "My Site"
+
+# Appearance settings
+theme = 'auto'
+colorPalette = 'default'
+hideHeader = false
+
+# Intro on main page, content is markdown
+homeIntroContent = """
+This is where I share my software projects, creative endeavors, and anything else I'm able to put together.\n
+Currently working full time at Cisco.
+"""
+
+# Collection to display on home
+homeCollectionTitle = 'Projects'
+homeCollection = 'projects'
+
+# Lists parameters
+paginationSize = 100
+listSummaries = true
+listDateFormat = '2 Jan 2006'
+
+# Breadcrumbs
+breadcrumbs = false
+
+# Social icons
+[[params.social]]
+name = "linkedin"
+url = "https://www.linkedin.com/in/rishab-r/"
+
+[[params.social]]
+name = "github"
+url = "https://github.com/rish0b"
+
+[[params.social]]
+name = "instagram"
+url = "https://www.instagram.com/rish0b/"
+
+# Main menu pages
+[[params.menu]]
+name = "home"
+url = "/"
+
+[[params.menu]]
+name = "projects"
+url = "/projects"
+
+# [[params.menu]]
+# name = "art"
+# url = "/art"
+
+# [[params.menu]]
+# name = "musings"
+# url = "/musings"
+
+[[params.menu]]
+name = "me"
+url = "/me"
+
+# Syntax highlight on code blocks
+[markup]
+[markup.highlight]
+style = 'algol'
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+# Giscus comments
+[params.giscus]
+enable = false
+repo = "user/repo"
+repoid = "repoId"
+category = "General"
+categoryid = "categoryId"
+mapping = "pathname"
+theme = "preferred_color_scheme"
