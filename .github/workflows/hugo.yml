@@ -54,8 +54,9 @@ jobs:
           HUGO_ENVIRONMENT: production
         run: |
           hugo \
+            --config=mysite/hugo.toml \
             --minify \
-            --baseURL "${{ steps.pages.outputs.base_url }}/"
+            --baseURL "https://rish0b.github.io/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
