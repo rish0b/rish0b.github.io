@@ -65,9 +65,9 @@ url = "/projects"
 # name = "musings"
 # url = "/musings"
 
-[[params.menu]]
-name = "me"
-url = "/me"
+# [[params.menu]]
+# name = "me"
+# url = "/me"
 
 # Syntax highlight on code blocks
 [markup]
