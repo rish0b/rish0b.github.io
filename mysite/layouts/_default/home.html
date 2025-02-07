@@ -43,11 +43,11 @@
 
 <div class="list-container">
     {{ with .Site.Params.homeCollectionTitle}}
-    <h2> {{ . }} </h2>
+    <h2> Recents </h2>
     {{ end }}
 
-    {{ $pages := where .Site.RegularPages "Section" .Site.Params.homeCollection
-    }}
+    {{ $pages := where .Site.RegularPages "Section" "in" (slice "blog" "projects") }}
+
 
     {{ $paginationSize := 1}}
     {{ if (gt .Site.Params.paginationSize 0) }}
