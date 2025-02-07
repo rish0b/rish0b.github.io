@@ -1,6 +1,6 @@
 baseURL = 'https://rish0b.github.io/'
 languageCode = 'en-us'
-title = 'Rishab Ravikumar'
+title = 'Portfolio'
 
 [taxonomies]
 tag = 'tags'
@@ -30,7 +30,7 @@ homeCollection = 'projects'
 # Lists parameters
 paginationSize = 100
 listSummaries = true
-listDateFormat = '2 Jan 2006'
+listDateFormat = 'January 2006'
 
 # Breadcrumbs
 breadcrumbs = false
@@ -56,6 +56,10 @@ url = "/"
 [[params.menu]]
 name = "projects"
 url = "/projects"
+
+[[params.menu]]
+name = "blog"
+url = "/blog"
 
 # [[params.menu]]
 # name = "art"
