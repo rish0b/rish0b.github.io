@@ -1,11 +1,11 @@
 <div class="post-line">
 
-    {{ $dateFormat := "02 Jan 2006"}}
+    {{ $dateFormat := "Jan 2006" }}
     {{ with .Site.Params.listDateFormat }}
-    {{ $dateFormat = .}}
+    {{ $dateFormat = . }}
     {{ end }}
 
-    <div style="display: flex; ">
+    <div style="display: flex;">
         <img class="line-thumbnail" src="/images/projects/{{ .File.BaseFileName }}/thumbnail.png">
         <div>
             <p class="line-title">
@@ -15,10 +15,9 @@
             </p>
 
             {{ if .Site.Params.listSummaries }}
-            <p class="line-summary">{{ .Date | time.Format $dateFormat }} </p>
+            <p class="line-summary">{{ .Date.Format $dateFormat }}</p>
             {{ end }}
-            <p class="line-summary"> {{ .Summary }} </p>
+            <p class="line-summary">{{ .Summary }}</p>
         </div>
-        
     </div>
 </div>
