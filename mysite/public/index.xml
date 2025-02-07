@@ -6,14 +6,28 @@
     <description>Recent content in Home on Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 01 Feb 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Feb 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bringing OOP to AI Workflows: Thoughts on Design &amp; Maintainability</title>
+      <link>http://localhost:1313/blog/oop_in_ai/</link>
+      <pubDate>Mon, 03 Feb 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/oop_in_ai/</guid>
+      <description>Exploring Coding Best Practices in Agentic AI</description>
+    </item>
     <item>
       <title>r/ExplainAI</title>
       <link>http://localhost:1313/projects/eli5-site-ai/</link>
       <pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/eli5-site-ai/</guid>
       <description>A living experiment exploring the power of AI Agents in practical content production.</description>
+    </item>
+    <item>
+      <title>A Curious Exploration of Hybrid AI: Real-Time Mentorship for Traditional ML with LLMs</title>
+      <link>http://localhost:1313/blog/mentor_apprentice/</link>
+      <pubDate>Fri, 31 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/mentor_apprentice/</guid>
+      <description>An Idea around Real-Time Collaboration in ML</description>
     </item>
     <item>
       <title>Fortune Cookie 2.0</title>

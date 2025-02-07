@@ -6,12 +6,18 @@
     {{ end }}
 
     <div style="display: flex;">
-        <img class="line-thumbnail" src="/images/projects/{{ .File.BaseFileName }}/thumbnail.png">
+        <img class="line-thumbnail" src="/images/{{ path.Base .File.Dir }}/{{ .File.BaseFileName }}/thumbnail.png">
         <div>
             <p class="line-title">
-                <a href="{{ .RelPermalink }}">
-                    {{ .Title }}
-                </a>
+                {{ if .Params.mediumLink }}
+                    <a href="{{ .Params.mediumLink }}" target="_blank">
+                        {{ .Title }}
+                    </a>
+                {{ else }}
+                    <a href="{{ .RelPermalink }}">
+                        {{ .Title }}
+                    </a>
+                {{ end }}
             </p>
 
             {{ if .Site.Params.listSummaries }}

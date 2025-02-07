@@ -44,9 +44,9 @@ url = "https://www.linkedin.com/in/rishab-r/"
 name = "github"
 url = "https://github.com/rish0b"
 
-[[params.social]]
-name = "instagram"
-url = "https://www.instagram.com/rish0b/"
+# [[params.social]]
+# name = "instagram"
+# url = "https://www.instagram.com/rish0b/"
 
 # Main menu pages
 [[params.menu]]
