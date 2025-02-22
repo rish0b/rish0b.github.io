@@ -1,6 +1,6 @@
-baseURL = 'https://rish0b.github.io/'
+baseURL = 'https://rishab-r.com/'
 languageCode = 'en-us'
-title = 'Portfolio'
+title = 'Rishab Ravikumar'
 
 [taxonomies]
 tag = 'tags'
@@ -10,7 +10,7 @@ googleAnalytics = "G-xxxxxxxxx"
 
 [params]
 # Meta description
-description = "My Site"
+description = "Portfolio"
 
 # Appearance settings
 theme = 'auto'
@@ -19,8 +19,8 @@ hideHeader = false
 
 # Intro on main page, content is markdown
 homeIntroContent = """
-This is where I share my software projects, creative endeavors, and anything else I'm able to put together.\n
-Currently working full time at Cisco.
+📍 **Austin, TX** \n
+**Software Engineer** at **Cisco** • Sharing my software projects & writing.
 """
 
 # Collection to display on home
