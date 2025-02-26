@@ -20,7 +20,7 @@ hideHeader = false
 # Intro on main page, content is markdown
 homeIntroContent = """
 📍 **Austin, TX** \n
-**Software Engineer** at **Cisco** • Sharing my software projects & writing.
+**Software Engineer @ Cisco** • Sharing my software projects & writing.
 """
 
 # Collection to display on home
